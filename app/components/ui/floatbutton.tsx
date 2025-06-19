@@ -50,6 +50,7 @@ const FloatButton = ({
         duration: 1,
         x: newX * magnetoStrenth,
         y: newY * magnetoStrenth,
+        //@ts-ignore
         ease: Power4.easeOut,
       });
 
@@ -58,6 +59,7 @@ const FloatButton = ({
         duration: 1,
         x: newX * magnetoTextStrength,
         y: newY * magnetoTextStrength,
+        //@ts-ignore
         ease: Power4.easeOut,
       });
     };
@@ -67,6 +69,7 @@ const FloatButton = ({
         duration: 1,
         x: 0,
         y: 0,
+        //@ts-ignore
         ease: Elastic.easeOut,
       });
 
@@ -75,6 +78,7 @@ const FloatButton = ({
         duration: 1,
         x: 0,
         y: 0,
+        //@ts-ignore
         ease: Elastic.easeOut,
       });
     };
