@@ -14,9 +14,6 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  experimental: {
-    scrollRestoration: true,
-  },
   async headers() {
     return [
       {
